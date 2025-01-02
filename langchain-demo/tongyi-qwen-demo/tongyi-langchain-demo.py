@@ -3,7 +3,8 @@ from langchain_community.llms import Tongyi
 from langchain_core.prompts import PromptTemplate
 # from langchain.chains import LLMChain
 
-dotenv.load_dotenv()    # 加载环境变量
+# 获取通义千问api key：https://bailian.console.aliyun.com/?apiKey=1#/api-key
+dotenv.load_dotenv()    # 加载.env环境变量
 
 template = """问题：{question}
 

@@ -3,7 +3,8 @@ from openai import OpenAI
 import dotenv
 
 try:
-    dotenv.load_dotenv()    # 加载环境变量
+    # 获取通义千问api key：https://bailian.console.aliyun.com/?apiKey=1#/api-key
+    dotenv.load_dotenv()    # 加载.env环境变量
     client = OpenAI(
         # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
         api_key=os.getenv("DASHSCOPE_API_KEY"),

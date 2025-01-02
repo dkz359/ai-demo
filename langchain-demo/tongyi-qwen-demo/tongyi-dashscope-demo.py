@@ -3,7 +3,8 @@ from dashscope import Generation
 import dotenv
 # DashScope(模型服务灵积)，灵积通过灵活、易用的模型API服务，让各种模态模型的能力，都能方便的为AI开发者所用
 
-dotenv.load_dotenv()    # 加载环境变量
+# 获取通义千问api key：https://bailian.console.aliyun.com/?apiKey=1#/api-key
+dotenv.load_dotenv()    # 加载.env环境变量
 
 messages = [
     {'role': 'system', 'content': 'You are a helpful assistant.'},
