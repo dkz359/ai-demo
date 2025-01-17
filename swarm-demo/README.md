@@ -14,3 +14,6 @@ Swarm 专注于使智能体协调与执行变得轻量、可控且易于测试�
 Swarm 探索的是轻量、可扩展且高度可定制的设计模式。类似 Swarm 的方法最适合处理大量独立能力和指令，这些内容难以编码为单一提示的场景。
 
 Assistants API 是开发者寻找完全托管的线程和内建记忆管理与检索的一个好选择。然而，Swarm 是为那些好奇学习多智能体编排的开发者提供的教育资源。Swarm 几乎完全运行在客户端上，与 Chat Completions API 类似，不会在调用之间存储状态。
+
+### 3、安装
+pip install git+https://github.com/openai/swarm.git
