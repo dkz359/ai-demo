@@ -1,3 +1,4 @@
+# pip install git+https://github.com/openai/swarm.git
 from swarm import Swarm, Agent
 from openai import OpenAI
 import os
@@ -24,8 +25,7 @@ agent_b = Agent(
 )
 
 response = swarm_client.run(
-    agent=agent_a,
-    messages=[{"role": "user", "content": "I want to talk to agent B."}],
+    agent=agent_a,    messages=[{"role": "user", "content": "I want to talk to agent B."}],
 )
 
 print(response.messages[-1]["content"])
