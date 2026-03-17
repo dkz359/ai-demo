@@ -8,7 +8,9 @@ smolagents 支持各种语言模型，包括 Hugging Face 的免费推理 API �
 
 研究表明，使用代码执行操作比传统的 JSON 格式更有效，具有更好的组合性、对象管理能力以及表达力。这意味着，smolagents 将为开发者们打开一扇新大门，让他们在 AI 代理领域更进一步。
 
-入口:https://huggingface.co/blog/smolagents
+入口：https://huggingface.co/blog/smolagents
+文档：https://smolagents.org/docs-category/get-started/
+github：https://github.com/huggingface/smolagents
 
 smolagents的设计理念是”极简代码，最大功能”。它提供了：
 
